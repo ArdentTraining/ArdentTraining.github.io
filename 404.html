@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en-GB"><head><meta charset="utf-8"><meta name="robots" content="noindex">
+<title>Not found</title>
+<script>
+(function () {
+  var p = location.pathname;
+  if (p.indexOf("/issue-tracker") === 0) {
+    location.replace("https://team.ardent-training.com" + (p.replace(/^\/issue-tracker\/?/, "/")) + location.search + location.hash);
+  }
+})();
+</script>
+</head><body style="font-family:system-ui,sans-serif;padding:2em">
+<p>Page not found. Looking for the Ardent team app? It's now at <a href="https://team.ardent-training.com/">team.ardent-training.com</a>.</p>
+</body></html>
